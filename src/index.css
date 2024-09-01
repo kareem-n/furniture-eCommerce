@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden ;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d3d3d3;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  display: none;
+  /* width: 0px !important; */
+  height: 0px !important;
+  z-index: 1;
+  /* border-radius: 50%; */
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
